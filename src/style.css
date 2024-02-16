@@ -1,0 +1,79 @@
+body {
+  background-image: url(https://files.oaiusercontent.com/file-PEM09MzpkK0aS2ezTSThftT8?se=2024-02-16T10%3A34%3A09Z&sp=r&sv=2021-08-06&sr=b&rscc=max-age%3D31536000%2C%20immutable&rscd=attachment%3B%20filename%3D8ab4b3ee-7dfb-4388-b1a0-f340c49146fe.webp&sig=q%2BeDj5HlZhm3YecBdH/DoOxEoU3uXDzxB2MZHV1nFjU%3D);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  position: relative;
+  background-image: url(https://static9.depositphotos.com/1712663/1198/v/450/depositphotos_11985568-stock-illustration-circle-flags-of-the-world.jpg);
+  background-position: center;
+  box-shadow: 0 0 15px #f0edcf;
+  padding: 50px;
+  margin: 80px;
+  align-items: center;
+  border-radius: 20px;
+  z-index: 2;
+
+  input {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    margin: auto auto;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-family: "Protest Strike", sans-serif;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    box-shadow: 0 -2px 5px #8c8b8b inset;
+    z-index: 3;
+  }
+
+  input:focus {
+    border: 2px solid #ff0000;
+  }
+
+  h3 {
+    display: flex;
+    font-size: 40px;
+    font-family: "Protest Guerrilla", sans-serif;
+    text-transform: uppercase;
+    margin: 20px;
+    justify-content: center;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      display: flex;
+      padding: 10px;
+      border-radius: 15px;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-family: "Protest Strike", sans-serif;
+      font-size: 20px;
+    }
+  }
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: -1;
+  border-radius: 20px;
+}
