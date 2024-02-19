@@ -4,13 +4,6 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import CountriesList from "./components/CountriesList.vue";
-
-export default {
-  name: "App",
-  components: {
-    CountriesList,
-  },
-};
 </script>
